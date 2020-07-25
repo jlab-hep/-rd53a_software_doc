@@ -1,0 +1,4 @@
+site_name: RD53A demonstration Docs
+pages:
+    - Demonstration: rd53a_demo_flow.md
+theme: readthedocs
