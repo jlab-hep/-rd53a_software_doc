@@ -1,29 +1,29 @@
 # RD53A Demonstration doc
 
-**Setups before running scans**
-### 1. Installation for the DB machine
-* [Installation for the DB machine](database_demonstration_install_db_machine.md)
-* [Setting for MongoDB](database_demonstration_mongodb.md)
-* [Setting for LocalDB viewer](database_demonstration_viewer.md)
+This is a documentation about the SW packages for module QC.<br>
+The doc describes how to use the packages folloing the flow of the module assembly and its QC.<br>
 
-**Register QC tester**
+![SW_structure](images/SW_structure.png)
+* `Production DB`: A central DB for ITk,setup in Czech.
+* `LocaalDB`: A local DB based on mongoDB to store module info, scan results and so on.
+* `InfluxDB`: A DB dedicated for time series data to store DCS data. 
+* `QC helper`: A SW to register QC results to LocalDB, especially for Non-electrical tests.
+* `YARR`: A SW to use electrical tests and upload the results to LocalDB.
+* `LabRemote`: A SW to control DCS and upload the data to LocalDB via InfluxDB.
+* `Scan Operator`: A SW to use in electrical tests. It can help the user operation in the tests with YARR and LabRemote.
 
-**The processes per module.**
+![Stage_and_SW](images/Stage_and_SW.png)
 
-### Register and Download module ID info from the Production DB
+In the flow of the module assembly, we recept a bare module and PCB.<br>
+In the first step of the flow,we need to do QC tests for the bare module. We use "QC helper"
 
-### Data taking and upload results to LocalDB for each QC test item
+**Flow for Bare module QC**
+* [bare_module_QC_flow](bare_module_QC_flow.md)
 
-#### Installation
-#### Setting and connect to LocalDB
-#### Data taking and upload results to LocalDB
-#### See the results in the veiwer
-
-### Upload scan results to the Production DB 
-
+**Flow for module(bare + flex) QC**
+* [module_QC_flow](module_QC_flow.md)
 
 ## Reference
-
 1. Document of "Traveling module"[(https://moduledaqdb.readthedocs.io/en/latest/)](https://moduledaqdb.readthedocs.io/en/latest/)
 2. Yarr docs[(https://yarr.readthedocs.io/en/latest/)](https://yarr.readthedocs.io/en/latest/)
 3. LocalDB docs[(https://localdb-docs.readthedocs.io/en/master/)](https://localdb-docs.readthedocs.io/en/master/)
