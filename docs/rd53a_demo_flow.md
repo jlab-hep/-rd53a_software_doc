@@ -24,6 +24,11 @@ Please follow the QC steps from the link below.<br>
 **Flow for Bare module QC**<br>
 [bare_module_QC_flow](bare_module_QC_flow.md)
 
+**Setup LocalDB in your DB server**
+[setup_database](setup_database.md)
+
+
+
 **Flow for module(bare + flex) QC**<br>
 [module_QC_flow](module_QC_flow.md)
 
