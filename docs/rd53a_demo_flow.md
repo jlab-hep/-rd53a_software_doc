@@ -4,24 +4,24 @@ This is a documentation about the SW packages for module QC.<br>
 The doc describes how to use the packages folloing the flow of the module assembly and its QC.<br>
 
 ![SW_structure](images/SW_structure.png)
-* `Production DB`: A central DB for ITk,setup in Czech.
-* `LocaalDB`: A local DB based on mongoDB to store module info, scan results and so on.
-* `InfluxDB`: A DB dedicated for time series data to store DCS data. 
-* `QC helper`: A SW to register QC results to LocalDB, especially for Non-electrical tests.
-* `YARR`: A SW to use electrical tests and upload the results to LocalDB.
-* `LabRemote`: A SW to control DCS and upload the data to LocalDB via InfluxDB.
-* `Scan Operator`: A SW to use in electrical tests. It can help the user operation in the tests with YARR and LabRemote.
+* `Production DB`: A central DB for ITk,setup in Czech.<br>
+* `LocaalDB`: A local DB based on mongoDB to store module info, scan results and so on.<br>
+* `InfluxDB`: A DB dedicated for time series data to store DCS data. <br>
+* `QC helper`: A SW to register QC results to LocalDB, especially for Non-electrical tests.<br>
+* `YARR`: A SW to use electrical tests and upload the results to LocalDB.<br>
+* `LabRemote`: A SW to control DCS and upload the data to LocalDB via InfluxDB.<br>
+* `Scan Operator`: A SW to use in electrical tests. It can help the user operation in the tests with YARR and LabRemote.<br>
 
 ![Stage_and_SW](images/Stage_and_SW.png)
 
 In the flow of the module assembly, we recept a bare module and PCB.<br>
 In the first step of the flow,we need to do QC tests for the bare module. We use "QC helper"
 
-**Flow for Bare module QC**
-* [bare_module_QC_flow](bare_module_QC_flow.md)
+**Flow for Bare module QC**<br>
+[bare_module_QC_flow](bare_module_QC_flow.md)
 
-**Flow for module(bare + flex) QC**
-* [module_QC_flow](module_QC_flow.md)
+**Flow for module(bare + flex) QC**<br>
+[module_QC_flow](module_QC_flow.md)
 
 ## Reference
 1. Document of "Traveling module"[(https://moduledaqdb.readthedocs.io/en/latest/)](https://moduledaqdb.readthedocs.io/en/latest/)
