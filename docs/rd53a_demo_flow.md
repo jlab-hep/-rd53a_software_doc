@@ -3,7 +3,7 @@
 This is a documentation about the SW packages for module QC.<br>
 The doc describes how to use the packages folloing the flow of the module assembly and its QC.<br>
 
-<img src="images/SW_structure.png" width="50">
+![SW_structure](images/SW_structure.png)
 * `Production DB`: A central DB for ITk,setup in Czech.<br>
 * `LocalDB`: A local DB based on mongoDB to store module info, scan results and so on.<br>
 * `InfluxDB`: A DB dedicated for time series data to store DCS data. <br>
@@ -13,6 +13,7 @@ The doc describes how to use the packages folloing the flow of the module assemb
 * `Scan Operator`: A SW to use in electrical tests. It can help the user operation in the tests with YARR and LabRemote.<br>
 
 <img src="images/Stage_and_SW.png" width="50">
+![Stage_and_SW](images/Stage_and_SW.png)
 
 In the flow of the module assembly, we recept a bare module and PCB.<br>
 For bare module QC, we only use "QC helper". It helps QC test and analysis results. It also interfaces to the production DB.<br>
