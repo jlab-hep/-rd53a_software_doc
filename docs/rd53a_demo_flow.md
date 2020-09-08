@@ -5,7 +5,7 @@ The doc describes how to use the packages folloing the flow of the module assemb
 
 <img src="images/SW_structure.png" width="50">
 * `Production DB`: A central DB for ITk,setup in Czech.<br>
-* `LocaalDB`: A local DB based on mongoDB to store module info, scan results and so on.<br>
+* `LocalDB`: A local DB based on mongoDB to store module info, scan results and so on.<br>
 * `InfluxDB`: A DB dedicated for time series data to store DCS data. <br>
 * `QC helper`: A SW to register QC results to LocalDB, especially for Non-electrical tests.<br>
 * `YARR`: A SW to use electrical tests and upload the results to LocalDB.<br>
