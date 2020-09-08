@@ -12,7 +12,6 @@ The doc describes how to use the packages folloing the flow of the module assemb
 * `LabRemote`: A SW to control DCS and upload the data to LocalDB via InfluxDB.<br>
 * `Scan Operator`: A SW to use in electrical tests. It can help the user operation in the tests with YARR and LabRemote.<br>
 
-<img src="images/Stage_and_SW.png" width="50">
 ![Stage_and_SW](images/Stage_and_SW.png)
 
 In the flow of the module assembly, we recept a bare module and PCB.<br>
