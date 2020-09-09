@@ -3,7 +3,7 @@ The following manual has to be executed by Admin in your site.
 Refer to the following page in LocalDB docs:<br>
 [https://localdb-docs.readthedocs.io/en/devel-localdb/installation/](https://localdb-docs.readthedocs.io/en/devel-localdb/installation/)
 
-# Setting for mongo DB
+#I. Setting for mongo DB
 
 ##1. Create an account in mongoDB as admin<br>
 Refer to the following page in LocalDB docs:<br>
@@ -35,14 +35,14 @@ Start MongoDB instance:
 $ sudo systemctl start mongod.service
 ```
 
-# Launch LocalDB viewer
+#II. Launch LocalDB viewer
 Create config file to setup viewer and Start LocalDB viewer following the page below:<br>
 [https://localdb-docs.readthedocs.io/en/devel-localdb/script/setup-viewer/](https://localdb-docs.readthedocs.io/en/devel-localdb/script/setup-viewer/)
 <br>
 <span style="color: red; ">**We can see the viewer while the process is running.**</span><br>
 
 
-# Setting for LocalDB
+#II. Setting for LocalDB
 
 ## 1. Check the mail function
 
