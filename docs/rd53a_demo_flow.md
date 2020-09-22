@@ -21,13 +21,13 @@ to sync the production DB.<br>
 
 Please follow the QC steps from the link below.<br>
 
-**Flow for Bare module QC**<br>
+## Flow for Bare module QC
 [bare_module_QC_flow](bare_module_QC_flow.md)
 
-**Setup LocalDB in your DB server**<br>
+## Setup LocalDB in your DB server
 [setup_database](setup_database.md)
 
-**Flow for module(bare + flex) QC**<br>
+## Flow for module(bare + PCB) QC
 [module_QC_flow](module_QC_flow.md)
 
 ## Git repositry and corresponding version for each SW package
@@ -42,7 +42,7 @@ Please follow the QC steps from the link below.<br>
 
 ## Reference
 1. Document of "Traveling module"[(https://moduledaqdb.readthedocs.io/en/latest/)](https://moduledaqdb.readthedocs.io/en/latest/)
-2. Yarr docs[(https://yarr.readthedocs.io/en/latest/)](https://yarr.readthedocs.io/en/latest/)
+2. Yarr docs[(http://yarr.web.cern.ch/yarr/)](http://yarr.web.cern.ch/yarr/)
 3. LocalDB docs[(https://localdb-docs.readthedocs.io/en/master/)](https://localdb-docs.readthedocs.io/en/master/)
 4. Tutorial page for ITk production DB[(https://gitlab.cern.ch/jpearkes/itkpd_tutorial/blob/master/README.md)](https://gitlab.cern.ch/jpearkes/itkpd_tutorial/blob/master/README.md)
 5. Documents for QC tutorial in February[]()
