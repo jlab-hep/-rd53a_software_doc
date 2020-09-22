@@ -20,4 +20,4 @@ After the registration of the user by admin, each user need to set password foll
 The current password is written in the Email sent to your address or issued by admin of LocalDB.<br>
 ![Set_Password](images/set_password.png)<br>
 
-Then you can sign in the username and set password to click "Sign in" bottum at the top left of the page.
+Then you can sign in the username and set password to click "Sign in" buttom at the top left of the page.
