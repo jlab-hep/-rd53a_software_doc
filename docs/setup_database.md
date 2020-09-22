@@ -61,8 +61,8 @@ Create config file to setup viewer and Start LocalDB viewer following the page b
 Please open your browser and access the LocalDB viewer.<br>
 The url is [http://127.0.0.1:5000/localdb](http://127.0.0.1:5000/localdb) or https://IPADRESS:5000/localdb.<br><br>
 
-Go to the admin page with admin's username and password.<br>
-![Go_to_Admin_Page](images/goto_adminpage.png)
+Go to the admin page following the instruction below.<br>
+![Go_to_Admin_Page](images/goto_adminpage.png)<br>
 Please do the folloing setting.<br>
 
 ## 1. Check the mail function
