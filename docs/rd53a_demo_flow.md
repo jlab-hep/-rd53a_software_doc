@@ -1,4 +1,4 @@
-# RD53A Demonstration doc
+# RD53A Software doc
 
 This is a documentation about the SW packages for module QC.<br>
 The doc describes how to use the packages folloing the flow of the module assembly and its QC.<br>
@@ -30,7 +30,15 @@ Please follow the QC steps from the link below.<br>
 **Flow for module(bare + flex) QC**<br>
 [module_QC_flow](module_QC_flow.md)
 
-## Git repositry and contact person for each SW package
+## Git repositry and corresponding version for each SW package
+|SW |Git|branch|
+|:-:|:-:|:-:|
+|localdb-tools|[ldbtoolv1.4](https://gitlab.cern.ch/YARR/localdb-tools/-/tree/ldbtoolv1.4)|master|
+|QC helper|- |- |
+|Scan Operator |-  |- |
+|YARR |[680f0adc](https://gitlab.cern.ch/YARR/YARR/-/commit/680f0adc7d91c611e43039835f92eae7c50da830)  |devel-localdb|
+|Lab remote  |-  |- |
+
 
 ## Reference
 1. Document of "Traveling module"[(https://moduledaqdb.readthedocs.io/en/latest/)](https://moduledaqdb.readthedocs.io/en/latest/)
