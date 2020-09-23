@@ -12,7 +12,7 @@ Please follow the link below to set the configuration of LocalDB for Yarr SW.<br
 [https://localdb-docs.readthedocs.io/en/1.4/script/setup-db/](https://localdb-docs.readthedocs.io/en/1.4/script/setup-db/)
 
 ## III. Install Lab Remote<br>
-To be constructed.
+You can find the isntructions to install labRemote on [their repo's README file](https://gitlab.cern.ch/berkeleylab/labRemote)
 
 ## IV. Install Scan Operator<br>
 To be constructed.
