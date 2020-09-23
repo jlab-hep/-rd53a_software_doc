@@ -12,9 +12,15 @@ Please follow the link below to set the configuration of LocalDB for Yarr SW.<br
 [https://localdb-docs.readthedocs.io/en/1.4/script/setup-db/](https://localdb-docs.readthedocs.io/en/1.4/script/setup-db/)
 
 ## III. Install Lab Remote<br>
-You can find the isntructions to install labRemote on [their repo's README file](https://gitlab.cern.ch/berkeleylab/labRemote)
+You can find the instructions to install labRemote on [their repo's README file](https://gitlab.cern.ch/berkeleylab/labRemote)
 
 ## IV. Install Scan Operator<br>
-To be constructed.
+
+Just clonning the code is enough. No need to build anything.
+```
+git clone --recursive https://gitlab.cern.ch/YARR/utilities/scan-operator.git
+```
+
+You can find a complete tutorial on how to use the Scan Operator on [their repo's README file](https://gitlab.cern.ch/YARR/utilities/scan-operator/).
 
 
