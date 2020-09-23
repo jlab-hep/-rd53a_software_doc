@@ -10,7 +10,7 @@ The doc describes how to use the packages folloing the flow of the module assemb
 * `QC helper`: A SW to register QC results to LocalDB, especially for Non-electrical tests.<br>
 * `YARR`: A SW to use electrical tests and upload the results to LocalDB.<br>
 * `LabRemote`: A SW to control DCS and upload the data to LocalDB via InfluxDB.<br>
-* `Scan Operator`: A SW to use in electrical tests. It can help the user operation in the tests with YARR and LabRemote.<br>
+* `Scan Operator`: A SW to use in electrical tests. It can help the user to perform the tests with YARR and LabRemote (or any other DCS controller).<br>
 
 ![Stage_and_SW](images/Stage_and_SW.png)
 
@@ -35,9 +35,9 @@ Please follow the QC steps from the link below.<br>
 |:-:|:-:|:-:|
 |localdb-tools|[ldbtoolv1.4](https://gitlab.cern.ch/YARR/localdb-tools/-/tree/ldbtoolv1.4)|master|
 |QC helper|- |- |
-|Scan Operator |-  |- |
+|Scan Operator |[v0.9.0](https://gitlab.cern.ch/YARR/utilities/scan-operator/-/commit/6746623b51e93fbc9b8223ff2deb8576cd49df31)  |master |
 |YARR |[680f0adc](https://gitlab.cern.ch/YARR/YARR/-/commit/680f0adc7d91c611e43039835f92eae7c50da830)  |devel-localdb|
-|Lab remote  |-  |- |
+|labRemote  | [24e7a55b](https://gitlab.cern.ch/berkeleylab/labRemote/-/commit/24e7a55b5e943db7fb6c6252c610b40d9eb8cf62)  | master |
 
 
 ## Reference
