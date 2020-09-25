@@ -16,7 +16,6 @@ Required packages
 *  OpenCV
 
 Setup<br>
-<br>
 ```
 pip3 install PyQt5
 pip3 install opencv-python (for macOS)
