@@ -36,4 +36,4 @@ cd Workdir/qc-helper
 python3 main.py
 ```
 ## IV. Operating procedure
-Please follow instruction.pdf in the latest version of the [QCHelper](https://gitlab.cern.ch/atlas-itk/sw/db/pixels/qc-viz-tools-dev/qc-helper/-/tree/master)
+Please follow "instruction.pdf" in the latest version of the [QCHelper](https://gitlab.cern.ch/atlas-itk/sw/db/pixels/qc-viz-tools-dev/qc-helper/-/tree/master)
