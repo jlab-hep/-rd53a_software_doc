@@ -34,7 +34,7 @@ Please follow the QC steps from the link below.<br>
 |SW |Git|branch|
 |:-:|:-:|:-:|
 |localdb-tools|[ldbtoolv1.4](https://gitlab.cern.ch/YARR/localdb-tools/-/tree/ldbtoolv1.4)|master|
-|QC helper|- |- |
+|QC helper| [v1.0.0](https://gitlab.cern.ch/atlas-itk/sw/db/pixels/qc-viz-tools-dev/qc-helper/-/tree/v1.0.0) | master |
 |Scan Operator |[v0.9.0](https://gitlab.cern.ch/YARR/utilities/scan-operator/-/commit/6746623b51e93fbc9b8223ff2deb8576cd49df31)  |master |
 |YARR |[680f0adc](https://gitlab.cern.ch/YARR/YARR/-/commit/680f0adc7d91c611e43039835f92eae7c50da830)  |devel-localdb|
 |labRemote  | [24e7a55b](https://gitlab.cern.ch/berkeleylab/labRemote/-/commit/24e7a55b5e943db7fb6c6252c610b40d9eb8cf62)  | master |
