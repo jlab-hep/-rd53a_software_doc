@@ -7,13 +7,13 @@ Please follow the link below.<br>
 <br>
 ## I. Environment
 Suported OS
-* Cent OS 7
-* macOS 10.15.3
+- Cent OS 7
+- macOS 10.15.3
 
 Required packages
-*  Python3
-*  PyQt5
-*  OpenCV
+-  Python3
+-  PyQt5
+-  OpenCV
 
 Setup<br>
 ```
