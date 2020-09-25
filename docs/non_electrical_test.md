@@ -35,3 +35,8 @@ git clone -b [latest version] --recursive https://gitlab.cern.ch/atlas-itk/sw/db
 cd Workdir/qc-helper
 python3 main.py
 ```
+
+Operating procedure
+```
+Please follow instruction.pdf in the git
+```
