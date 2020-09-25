@@ -30,13 +30,10 @@ mkdir Workdir
 cd ./Workdir
 git clone -b [latest version] --recursive https://gitlab.cern.ch/atlas-itk/sw/db/pixels/qc-viz-tools-dev/qc-helper.git
 ```
-## III. Run GUI
+## III. Start GUI
 ```
 cd Workdir/qc-helper
 python3 main.py
 ```
-
-Operating procedure
-```
-Please follow instruction.pdf in the git
-```
+## IV. Operating procedure
+Please follow instruction.pdf in the latest version of the [QCHelper](https://gitlab.cern.ch/atlas-itk/sw/db/pixels/qc-viz-tools-dev/qc-helper/-/tree/master)
