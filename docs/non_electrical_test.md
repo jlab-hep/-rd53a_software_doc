@@ -22,7 +22,6 @@ pip3 install PyQt5
 pip3 install opencv-python (for macOS)
 pip3 install opencv-python==4.1.2.30 (for macOS)
 ```
-<br>
 ## II. Installation
 Install QCHelper in your machine.<br>
 <br>
@@ -32,7 +31,6 @@ mkdir Workdir
 cd ./Workdir
 git clone -b [latest version] --recursive https://gitlab.cern.ch/atlas-itk/sw/db/pixels/qc-viz-tools-dev/qc-helper.git
 ```
-<br>
 ## III. Run GUI
 ```
 cd Workdir/qc-helper
