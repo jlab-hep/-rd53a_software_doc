@@ -1,4 +1,4 @@
-# Do non-electrical tests and upload the results to LocalDB
+a\# Do non-electrical tests and upload the results to LocalDB
 
 The GUI tool is prepared to upload QC test results to LocalDB.<br>
 <br>
@@ -6,14 +6,14 @@ Please follow the link below.<br>
 [QCHelper](https://gitlab.cern.ch/atlas-itk/sw/db/pixels/qc-viz-tools-dev/qc-helper/-/tree/master)
 <br>
 ## I. Environment
-Suported OS
-- Cent OS 7
-- macOS 10.15.3
+Suported OS<br>
+* Cent OS 7<br>
+* macOS 10.15.3<br>
 
-Required packages
--  Python3
--  PyQt5
--  OpenCV
+Required packages<br>
+* Python3<br>
+* PyQt5<br>
+* OpenCV<br>
 
 Setup<br>
 ```
