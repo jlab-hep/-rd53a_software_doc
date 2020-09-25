@@ -1,4 +1,4 @@
-a\# Do non-electrical tests and upload the results to LocalDB
+# Do non-electrical tests and upload the results to LocalDB
 
 The GUI tool is prepared to upload QC test results to LocalDB.<br>
 <br>
