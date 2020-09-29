@@ -11,16 +11,13 @@ Please follow the link below.<br>
 
 
 ## III. Check the results in LocalDB viewer
-Please follow "instruction.pdf" in the latest version of the [QCHelper](https://gitlab.cern.ch/atlas-itk/sw/db/pixels/qc-viz-tools-dev/qc-helper/-/tree/master)
-
-## V. Check the uploading results in LocalDB viewer
 Open your browser and access the LocalDB viewer.<br>
 The url is [http://127.0.0.1:5000/localdb](http://127.0.0.1:5000/localdb) or https://IPADRESS:5000/localdb.<br><br>
 
 Go to the module's toppage following the instruction below.<br>
 ![Go_to_Module_Toppage](images/goto_module_toppage.png)<br>
 
-You can see the uploading scan results in the table of "Scan Data" in the page as below.<br>
+You can see the uploaded scan results in the table of "Scan Data" in the page as below.<br>
 ![View_QC_Test](images/view_scans.png)<br>
 
 

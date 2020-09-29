@@ -44,6 +44,6 @@ The url is [http://127.0.0.1:5000/localdb](http://127.0.0.1:5000/localdb) or htt
 Go to the module's toppage following the instruction below.<br>
 ![Go_to_Module_Toppage](images/goto_module_toppage.png)<br>
 
-You can see the uploading results in the table of "QC Test" in the page as below.<br>
+You can see the uploaded results in the table of "QC Test" in the page as below.<br>
 ![View_QC_Test](images/view_QC_test.png)<br>
 
