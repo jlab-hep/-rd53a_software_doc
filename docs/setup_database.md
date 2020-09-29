@@ -59,7 +59,7 @@ Create config file to setup viewer and Start LocalDB viewer following the page b
 
 
 #IV. Setting for LocalDB
-Please open your browser and access the LocalDB viewer.<br>
+Open your browser and access the LocalDB viewer.<br>
 The url is [http://127.0.0.1:5000/localdb](http://127.0.0.1:5000/localdb) or https://IPADRESS:5000/localdb.<br><br>
 
 Go to the admin page following the instruction below.<br>
