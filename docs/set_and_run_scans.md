@@ -6,8 +6,8 @@ Please execute the following commands to use the scripts in Yarr/localdb/ direct
 ```bash
 $ cd <YOUR_WORD_DIRECTORY>/Yarr
 $ source localdb/login_mongodb.sh 
-Input mongodb account's username: okuyama                     
-Input mongodb account's password: 
+Input mongodb account username: okuyama                     
+Input mongodb account password: 
 [14:36:57:446][  info  ][   Local DB    ]: -----------------------
 [14:36:57:449][  info  ][   Local DB    ]: Checking connection to DB Server: mongodb://127.0.0.1:27017/localdb ...
 [14:36:57:501][  info  ][   Local DB    ]: ---> Good connection!
