@@ -1,6 +1,6 @@
 **Firstly we should register modules and download it from the production DB to LocalDB.**<br>
 # Register a module to the production DB and download its Id.
-[Register_module](register_module_to_pd.md)
+[Register_module](register_module_to_pd.md)<br>
 [Download_module](download_module_from_pd.md)
 <br><br><br>
 
