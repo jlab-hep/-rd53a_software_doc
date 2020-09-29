@@ -9,5 +9,10 @@ Please follow the link below.<br>
 ## II. Set and Run scans 
 [Set_And_Run_Scans](set_and_run_scans.md)
 
-## III. Select scan results as QC results in LocalDB viewer
+
+## III. Check the results in LocalDB viewer
+[Check_Electrical_Test](check_scans.md)
+
+
+## IV. Select scan results as QC results in LocalDB viewer
 [Select_Scan_Result](select_scans.md)

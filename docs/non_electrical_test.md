@@ -14,7 +14,6 @@ Required packages<br>
 * Python3<br>
 * PyQt5<br>
 * OpenCV<br>
-
 Setup<br>
 ```
 pip3 install PyQt5
@@ -37,3 +36,6 @@ python3 main.py
 ```
 ## IV. Operating procedure
 Please follow "instruction.pdf" in the latest version of the [QCHelper](https://gitlab.cern.ch/atlas-itk/sw/db/pixels/qc-viz-tools-dev/qc-helper/-/tree/master)
+
+## V. Check the uploading results in LocalDB viewer
+TBC
