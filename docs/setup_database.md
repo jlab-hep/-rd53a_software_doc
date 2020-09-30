@@ -19,7 +19,7 @@ Refer to the following page.**YARR installation is not required if the machine i
 
 ##(i). Create an account in mongoDB as admin<br>
 Refer to the following page.<br>
-[https://localdb-docs.readthedocs.io/en/devel-localdb/script/create_admin/](https://localdb-docs.readthedocs.io/en/devel-localdb/script/create_admin/)<br>
+[https://localdb-docs.readthedocs.io/en/1.4/script/create_admin/](https://localdb-docs.readthedocs.io/en/1.4/script/create_admin/)<br>
 <br>
 **In case you already have an admin account in LocalDB...**<br>
 Please execute this script for the same name and password as admin to up to supprt the latest system.<br>
