@@ -24,13 +24,13 @@ pip3 install opencv-python==4.1.2.30 (for macOS)
 Install QCHelper in your machine.<br>
 <br>
 Install<br>
-```
+```bash
 mkdir Workdir
 cd ./Workdir
 git clone -b [latest version] --recursive https://gitlab.cern.ch/atlas-itk/sw/db/pixels/qc-viz-tools-dev/qc-helper.git
 ```
 ## III. Start GUI
-```
+```bash
 cd Workdir/qc-helper
 python3 main.py
 ```
@@ -48,3 +48,5 @@ You can see the uploaded results in the table of "QC Test" in the page as below.
 You can go to the result page for each test by clicking the ids in the table.<br>
 ![View_QC_Test](images/view_QC_test.png)<br>
 
+<br>
+[&rarr; Back to the page](module_QC_flow.md)

@@ -10,3 +10,6 @@ Please follow the instruction below after sign-in on your viewer to click "Sign-
 ## (ii) View the selected results in LocalDB viewer
 You can check the selected scans as QC results for "BASIC_ELECTRICAL" or "FULL_ELECTRICAL_TEST" on the top page of the module in LocalDB viewer.<br>
 ![Check_Selected_Results](images/check_selected_results.png)<br>
+
+<br>
+[&rarr; Back to the page](electrical_test.md)

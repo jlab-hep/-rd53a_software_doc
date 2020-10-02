@@ -28,3 +28,6 @@ You can go to the result page for each test by clicking the ids in the table.<br
 
 ## V. Select scan results as QC results in LocalDB viewer
 [Select_Scan_Result](select_scans.md)
+
+<br>
+[&rarr; Back to the page](module_QC_flow.md)

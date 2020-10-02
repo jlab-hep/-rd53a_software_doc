@@ -6,4 +6,5 @@ Tutorial page for ITk production DB[(https://gitlab.cern.ch/jpearkes/itkpd_tutor
 Please go to the admin page in LocalDB and follow the instruction below.<br>
 ![Download_Institution](images/download_institution.png)<br>
 
-
+<br>
+[&rarr; Back to the page](setup_database.md)

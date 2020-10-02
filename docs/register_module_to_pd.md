@@ -52,3 +52,6 @@ Details for each parameter are following.<br>
 - "child": Input the PCB's and Bare module's serial number assembled in the module to link the id in the DB.<br><br>
 You can check the registered module list in the page of the production DB below.You can go to the page by the following link.<br>
 [https://itkpd-test.unicorncollege.cz/myComponents](https://itkpd-test.unicorncollege.cz/myComponents)
+
+<br>
+[&rarr; Back to the page](module_QC_flow.md)

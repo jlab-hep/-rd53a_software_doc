@@ -8,3 +8,5 @@ We can download the ids at once following the instruction below.<br>
 You can check the downloaded module list in the page below.<br>
 [http://127.0.0.1:5000/localdb/components](http://127.0.0.1:5000/localdb/components) or https://IPADRESS:5000/localdb/components.<br>
 
+<br>
+[&rarr; Back to the page](module_QC_flow.md)

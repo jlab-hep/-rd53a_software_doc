@@ -22,13 +22,13 @@ to sync the production DB.<br>
 Please follow the QC steps from the link below.<br>
 
 ## Flow for Bare module QC
-[&rarr;Go to the page](bare_module_QC_flow.md)
+[&rarr; Go to the page](bare_module_QC_flow.md)
 
 ## Setup LocalDB in your DB server
-[&rarr;Go to the page](setup_database.md)
+[&rarr; Go to the page](setup_database.md)
 
 ## Flow for module(bare + PCB) QC
-[&rarr;Go to the page](module_QC_flow.md)
+[&rarr; Go to the page](module_QC_flow.md)
 
 ## Git repositry and corresponding version for each SW package
 |SW |Git|branch|

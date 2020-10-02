@@ -21,3 +21,6 @@ The current password is written in the Email sent to your address or issued by a
 ![Set_Password](images/set_password.png)<br>
 
 Then you can sign in the username and set password to click "Sign in" buttom at the top left of the page.
+
+<br>
+[&rarr; Back to the page](setup_database.md)

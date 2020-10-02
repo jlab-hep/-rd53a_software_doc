@@ -23,4 +23,5 @@ git clone --recursive https://gitlab.cern.ch/YARR/utilities/scan-operator.git
 
 You can find a complete tutorial on how to use the Scan Operator on [their repo's README file](https://gitlab.cern.ch/YARR/utilities/scan-operator/).
 
-
+<br>
+[&rarr; Back to the page](electrical_test.md)

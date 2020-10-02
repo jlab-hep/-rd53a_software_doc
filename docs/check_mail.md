@@ -25,4 +25,5 @@ flask:
 (iii) Re-launch the LocalDB viewer and go to the next setting.<br>
 
 
-
+<br>
+[&rarr; Back to the page](setup_database.md)
