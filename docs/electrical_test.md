@@ -22,6 +22,7 @@ Go to the module's toppage following the instruction below.<br>
 ![Go_to_Module_Toppage](images/goto_module_toppage.png)<br>
 
 You can see the uploaded scan results in the table of "Scan Data" in the page as below.<br>
+You can go to the result page for each test by clicking the ids in the table.<br>
 ![View_QC_Test](images/view_scans.png)<br>
 
 

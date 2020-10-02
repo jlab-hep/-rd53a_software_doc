@@ -1,4 +1,4 @@
-# RD53A Software doc
+# QC Software doc
 
 This is a documentation about the SW packages for module QC.<br>
 The doc describes how to use the packages folloing the flow of the module assembly and its QC.<br>
@@ -22,13 +22,13 @@ to sync the production DB.<br>
 Please follow the QC steps from the link below.<br>
 
 ## Flow for Bare module QC
-[bare_module_QC_flow](bare_module_QC_flow.md)
+[&rarr;Go to the page](bare_module_QC_flow.md)
 
 ## Setup LocalDB in your DB server
-[setup_database](setup_database.md)
+[&rarr;Go to the page](setup_database.md)
 
 ## Flow for module(bare + PCB) QC
-[module_QC_flow](module_QC_flow.md)
+[&rarr;Go to the page](module_QC_flow.md)
 
 ## Git repositry and corresponding version for each SW package
 |SW |Git|branch|
