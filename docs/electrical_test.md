@@ -11,7 +11,7 @@ Please follow the link below.<br>
 
 ## III. Monitor DCS in Grafana
 
-Please refer the following page used in the tutorial on February.<br>
+Please refer to the following page used in the tutorial on February.<br>
 [https://qc-demonstration.readthedocs.io/en/latest/database_demonstration_grafana/](https://qc-demonstration.readthedocs.io/en/latest/database_demonstration_grafana/)<br>
 
 ## IV. Check the results in LocalDB viewer
