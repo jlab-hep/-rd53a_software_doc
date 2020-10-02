@@ -9,8 +9,12 @@ Please follow the link below.<br>
 ## II. Set and Run scans 
 [Set_And_Run_Scans](set_and_run_scans.md)
 
+## III. Monitor DCS in Grafana
 
-## III. Check the results in LocalDB viewer
+Please refer the following page used in the tutorial on February.<br>
+[https://qc-demonstration.readthedocs.io/en/latest/database_demonstration_grafana/](https://qc-demonstration.readthedocs.io/en/latest/database_demonstration_grafana/)<br>
+
+## IV. Check the results in LocalDB viewer
 Open your browser and access the LocalDB viewer.<br>
 The url is [http://127.0.0.1:5000/localdb](http://127.0.0.1:5000/localdb) or https://IPADRESS:5000/localdb.<br><br>
 
@@ -21,5 +25,5 @@ You can see the uploaded scan results in the table of "Scan Data" in the page as
 ![View_QC_Test](images/view_scans.png)<br>
 
 
-## IV. Select scan results as QC results in LocalDB viewer
+## V. Select scan results as QC results in LocalDB viewer
 [Select_Scan_Result](select_scans.md)
