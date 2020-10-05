@@ -1,4 +1,4 @@
 site_name: RD53A production Docs
-pages:
-    - Demonstration: rd53a_demo_flow.md
+nav:
+    - QC software doc: rd53a_demo_flow.md
 theme: readthedocs
