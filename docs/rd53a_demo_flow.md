@@ -3,6 +3,8 @@
 This is a documentation about the SW packages for module QC.<br>
 The doc describes how to use the packages according the flow of the module QC.<br>
 
+## Installation and Setting up
+
 ![SW_structure](images/SW_structure.png)
 * `Production DB`: A central DB for ITk,setup in Czech.<br>
 * `LocalDB`: A local DB based on mongoDB to store module info, scan results and so on.<br>
@@ -12,7 +14,6 @@ The doc describes how to use the packages according the flow of the module QC.<b
 * `LabRemote`: A SW to control DCS and upload the data to LocalDB via InfluxDB.<br>
 * `Scan Operator`: A SW to use in electrical tests. It can help the user to perform the tests with YARR and LabRemote (or any other DCS controller).<br>
 
-## Installation and Setting up
 
 ### I. Install DB packages and Setup the system in your DB server
 [&rarr; Go to the page](setup_database.md)
@@ -21,7 +22,7 @@ The doc describes how to use the packages according the flow of the module QC.<b
 [&rarr; Go to the page](sw_installation.md)
 
 
-
+## QC flow
 ![Stage_and_SW](images/Stage_and_SW.png)
 
 In the flow of the module assembly, we recept a bare module and PCB.<br>
@@ -34,7 +35,7 @@ Please follow the QC steps from the link below.<br>
 ## Flow for Bare module QC
 [&rarr; Go to the page](bare_module_QC_flow.md)
 
-## Flow for module(bare + PCB) QC
+## Flow for module QC
 [&rarr; Go to the page](module_QC_flow.md)
 
 ## Git repositry and corresponding version for each SW package
@@ -43,7 +44,7 @@ Please follow the QC steps from the link below.<br>
 |localdb-tools|[ldbtoolv1.4](https://gitlab.cern.ch/YARR/localdb-tools/-/tree/ldbtoolv1.4)|master|
 |QC helper| [v1.0.0](https://gitlab.cern.ch/atlas-itk/sw/db/pixels/qc-viz-tools-dev/qc-helper/-/tree/v1.0.0) | master |
 |Scan Operator |[v0.9.0](https://gitlab.cern.ch/YARR/utilities/scan-operator/-/commit/6746623b51e93fbc9b8223ff2deb8576cd49df31)  |master |
-|YARR |[680f0adc](https://gitlab.cern.ch/YARR/YARR/-/commit/680f0adc7d91c611e43039835f92eae7c50da830)  |devel-localdb|
+|YARR |[c629825b](https://gitlab.cern.ch/YARR/YARR/-/commit/c629825b9cd5a3f08e99f2574bcfd4ef946da3e1)  |devel|
 |labRemote  | [24e7a55b](https://gitlab.cern.ch/berkeleylab/labRemote/-/commit/24e7a55b5e943db7fb6c6252c610b40d9eb8cf62)  | master |
 
 
