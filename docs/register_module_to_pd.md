@@ -7,18 +7,23 @@ Tutorial page for ITk production DB[(https://gitlab.cern.ch/jpearkes/itkpd_tutor
 
 Please execute the following commands in your shell.<br>
 
+(i) Install the python scripts and Move the working directory
 ```bash
 $ cd <YOUR_WORK DIRECTRY>
 $ git clone https://gitlab.cern.ch/atlas-itk/sw/db/pixels/module-scaffolding-implementation.git
-$ cd module-scaffolding-implementation/
+$ cd module-scaffolding-implementation/registerComponent/
+```
+<br>
+(ii) Log in the ITk PD 
+```bash
 $ source authenticate.sh
 Input Access Code 1 for ITkPD: 
 Input Access Code 2 for ITkPD: 
 You have signed in as Hiroki  Okuyama. Your token expires in 7198s.
-$ cd registerComponent/
 ```
 
-Edit the file named module_registerCfg.json as below.<br>
+<br>
+(iii) Edit the file named module_registerCfg.json as below.<br>
 ```yml
 {
   "project":"P",
@@ -51,9 +56,11 @@ Details for each parameter are following.<br>
 - "serialNumber": Input a serial number for the module according to the document.<br>
 - "child": Input the PCB's and Bare module's serial number assembled in the module to link the id in the DB.<br><br>
 
-After setting the config, run the command below to register the module in the production DB.
+
+<br>
+(iv) Run the script to register the module in the production DB.
 ```bash
-$ python3 registerQuadModule.py
+$ python3 registerModule.py
 ```
 
 <br>
