@@ -3,7 +3,7 @@
 This is a documentation about the SW packages for module QC.<br>
 The doc describes how to use the packages according the flow of the module QC.<br>
 
-## Installation and Setting up
+## SW Installation and Setting up
 
 ![SW_structure](images/SW_structure.png)
 * `Production DB`: A central DB for ITk,setup in Czech.<br>

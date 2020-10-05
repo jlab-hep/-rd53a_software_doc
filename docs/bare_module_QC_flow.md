@@ -1,12 +1,10 @@
 # Flow for Bare Module QC
-## I. SW installation
+
+## I. Register bare modules in the production DB
 TBC
 
-## II. Register bare modules in the production DB
+## II. Do QC test and upload the results to the production DB
 TBC
 
-## III. Do QC test and upload the results to the production DB
-TBC
-
-
-[&rarr; Back to the page](rd53a_domo_flow.md)
+<br>
+[&rarr; Back to the page](https://rd53a-software-docs.readthedocs.io/en/latest/rd53a_demo_flow/)
