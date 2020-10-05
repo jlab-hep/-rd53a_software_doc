@@ -4,5 +4,6 @@ The production stage is automatically changed to the next after the sign-off.<br
 Please follow the instruction below after sign-in on your viewer to click "Sign-in" at the top left conner.<br>
 ![Sign_Off_QC_Results](images/sign_off_results.png)<br>
 
+After the sign-off, you can check the results signed off and the stage of the module go to next in the module's top page.
 <br>
 [&rarr; Back to the page](module_QC_flow.md)

@@ -1,7 +1,7 @@
 # QC Software doc
 
 This is a documentation about the SW packages for module QC.<br>
-The doc describes how to use the packages folloing the flow of the module assembly and its QC.<br>
+The doc describes how to use the packages according the flow of the module QC.<br>
 
 ![SW_structure](images/SW_structure.png)
 * `Production DB`: A central DB for ITk,setup in Czech.<br>
@@ -11,6 +11,16 @@ The doc describes how to use the packages folloing the flow of the module assemb
 * `YARR`: A SW to use electrical tests and upload the results to LocalDB.<br>
 * `LabRemote`: A SW to control DCS and upload the data to LocalDB via InfluxDB.<br>
 * `Scan Operator`: A SW to use in electrical tests. It can help the user to perform the tests with YARR and LabRemote (or any other DCS controller).<br>
+
+## Installation and Setting up
+
+### I. Install DB packages and Setup the system in your DB server
+[&rarr; Go to the page](setup_database.md)
+
+### II. Install SW packages for DAQ(YARR, LabRemote, Scan Operator, QC helper) in your DAQ machine
+[&rarr; Go to the page](sw_installation.md)
+
+
 
 ![Stage_and_SW](images/Stage_and_SW.png)
 
@@ -23,9 +33,6 @@ Please follow the QC steps from the link below.<br>
 
 ## Flow for Bare module QC
 [&rarr; Go to the page](bare_module_QC_flow.md)
-
-## Setup LocalDB in your DB server
-[&rarr; Go to the page](setup_database.md)
 
 ## Flow for module(bare + PCB) QC
 [&rarr; Go to the page](module_QC_flow.md)
