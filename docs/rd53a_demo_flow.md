@@ -21,7 +21,7 @@ The doc describes how to use the packages according the flow of the module QC.<b
 ### II. Install SW packages for DAQ(YARR, LabRemote, Scan Operator, QC helper) in your DAQ machine
 [&rarr; Go to the page](sw_installation.md)
 
-
+<br><br>
 ## QC flow
 ![Stage_and_SW](images/Stage_and_SW.png)
 
@@ -32,12 +32,13 @@ to sync the production DB.<br>
 
 Please follow the QC steps from the link below.<br>
 
-## Flow for Bare module QC
+### Flow for Bare module QC
 [&rarr; Go to the page](bare_module_QC_flow.md)
 
-## Flow for module QC
+### Flow for module QC
 [&rarr; Go to the page](module_QC_flow.md)
 
+<br><br>
 ## Git repositry and corresponding version for each SW package
 |SW |Git|branch|
 |:-:|:-:|:-:|
@@ -48,6 +49,7 @@ Please follow the QC steps from the link below.<br>
 |labRemote  | [24e7a55b](https://gitlab.cern.ch/berkeleylab/labRemote/-/commit/24e7a55b5e943db7fb6c6252c610b40d9eb8cf62)  | master |
 
 
+<br><br>
 ## Reference
 1. Document of "Traveling module"[(https://moduledaqdb.readthedocs.io/en/latest/)](https://moduledaqdb.readthedocs.io/en/latest/)
 2. Yarr docs[(http://yarr.web.cern.ch/yarr/)](http://yarr.web.cern.ch/yarr/)
