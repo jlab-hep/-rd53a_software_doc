@@ -7,11 +7,11 @@ The doc describes how to use the packages according the flow of the module QC.<b
 
 ![SW_structure](images/SW_structure.png)
 * `Production DB`: A central DB for ITk,setup in Czech.<br>
-* `LocalDB`: A local DB based on mongoDB to store module info, scan results and so on.<br>
-* `InfluxDB`: A DB dedicated for time series data to store DCS data. <br>
-* `QC helper`: A SW to register QC results to LocalDB, especially for Non-electrical tests.<br>
+* `LocalDB`: A local DB based on mongoDB to manage module info, QC results and related information.<br>
+* `InfluxDB`: A DB dedicated for time series data. We use this DB to store DCS data in the QC. <br>
+* `QC helper`: A SW to manage QC results, especially for non-electrical tests.<br>
 * `YARR`: A SW to use electrical tests and upload the results to LocalDB.<br>
-* `LabRemote`: A SW to control DCS and upload the data to LocalDB via InfluxDB.<br>
+* `LabRemote`: A SW to control DCS and upload the data to LocalDB via InfluxDB. This SW is officially supported in the system but you can also use other SW in the module QC.<br>
 * `Scan Operator`: A SW to use in electrical tests. It can help the user to perform the tests with YARR and LabRemote (or any other DCS controller).<br>
 
 
@@ -25,10 +25,9 @@ The doc describes how to use the packages according the flow of the module QC.<b
 ## QC flow
 ![Stage_and_SW](images/Stage_and_SW.png)
 
-In the flow of the module assembly, we recept a bare module and PCB.<br>
-For bare module QC, we only use "QC helper". It helps QC test and analysis results. It also interfaces to the production DB.<br>
-For module QC, we use LocalDB for data management system. We store QC results to the DB and upload/download the data
-to sync the production DB.<br>
+From the side of SW packages, the QC flow is roughly devided into two parts, bare module QC and module QC, as you can see in the figure.<br>
+For bare module, we use "QC helper" to manage the QC results and upload the data to the production DB.<br>
+For module QC, we use LocalDB to manage the QC results. Uploading QC results to the LocalDB is supported some DAQ SW packages. Uploading/Downloading the results to/from the production DB is supported in the LocalDB function. <br>
 
 Please follow the QC steps from the link below.<br>
 
