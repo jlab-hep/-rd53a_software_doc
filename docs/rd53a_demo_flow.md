@@ -42,7 +42,7 @@ Please follow the QC steps from the link below.<br>
 |SW |Git|branch|
 |:-:|:-:|:-:|
 |localdb-tools|[ldbtoolv1.4](https://gitlab.cern.ch/YARR/localdb-tools/-/tree/ldbtoolv1.4)|master|
-|QC helper| [v1.0.0](https://gitlab.cern.ch/atlas-itk/sw/db/pixels/qc-viz-tools-dev/qc-helper/-/tree/v1.0.0) | master |
+|QC helper| [v1.0.1](https://gitlab.cern.ch/atlas-itk/sw/db/pixels/qc-viz-tools-dev/qc-helper/-/tree/v1.0.1) | master |
 |Scan Operator |[v0.9.0](https://gitlab.cern.ch/YARR/utilities/scan-operator/-/commit/6746623b51e93fbc9b8223ff2deb8576cd49df31)  |master |
 |YARR |[c629825b](https://gitlab.cern.ch/YARR/YARR/-/commit/c629825b9cd5a3f08e99f2574bcfd4ef946da3e1)  |devel|
 |labRemote  | [24e7a55b](https://gitlab.cern.ch/berkeleylab/labRemote/-/commit/24e7a55b5e943db7fb6c6252c610b40d9eb8cf62)  | master |
