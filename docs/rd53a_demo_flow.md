@@ -56,7 +56,7 @@ Please follow the QC steps from the link below.<br>
 4. Tutorial page for ITk production DB[(https://gitlab.cern.ch/jpearkes/itkpd_tutorial/blob/master/README.md)](https://gitlab.cern.ch/jpearkes/itkpd_tutorial/blob/master/README.md)
 5. Documents for QC tutorial in February[https://qc-demonstration.readthedocs.io/en/latest/database_demonstration_flow/](https://qc-demonstration.readthedocs.io/en/latest/database_demonstration_flow/)
 6. Serial Number Specification for ITk pixel modules[https://cds.cern.ch/record/2728364/](https://cds.cern.ch/record/2728364/)
-7. MongoDB web[(https://www.mongodb.com)](https://www.mongodb.com)
-8. InfluxDB web[(https://www.influxdata.com)](https://www.influxdata.com)
+7. Mongo DB web[(https://www.mongodb.com)](https://www.mongodb.com)
+8. Influx DB web[(https://www.influxdata.com)](https://www.influxdata.com)
 9. Gragfana web[(https://grafana.com)](https://grafana.com)
-
+<br>
