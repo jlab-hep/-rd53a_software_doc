@@ -1,5 +1,8 @@
 # Do non-electrical tests and upload the results to LocalDB
 
+QCHelper is GUI tool to upload QC results to localDB.
+![QCHelper_structure](images/QCHepler_structure.png)<br>
+
 ## I. Start GUI
 ```bash
 cd Workdir/qc-helper
