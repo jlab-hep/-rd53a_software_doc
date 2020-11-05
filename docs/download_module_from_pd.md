@@ -2,6 +2,7 @@
 
 Need to download module ids from the production DB to LocalDB to connect the QC results to a proper id in the DB.<br>
 We can download the ids at once following the instruction below.<br>
+<span style="color: red; "> * All FE chips need to be assembled to be able to download a module. </span>
 
 ![Download_Module](images/download_module.png)<br>
 
